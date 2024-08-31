@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Essentials.Redis</RootNamespace>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <PackageId>Essentials.Redis</PackageId>
+        <Version>1.0.0.0</Version>
+        <Authors>Gadzhinskiy</Authors>
+        <Company>Gadzhinskiy</Company>
+        <Product>Essentials.Redis</Product>
+        <Description>
+            Клиент для взаимодействия с Redis
+        </Description>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Essentials.Configuration" Version="1.2.3" />
+      <PackageReference Include="Essentials.Functional" Version="1.1.1" />
+      <PackageReference Include="Essentials.Serialization" Version="1.1.0" />
+      <PackageReference Include="Essentials.Utils" Version="1.1.2" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+      <PackageReference Include="StackExchange.Redis" Version="2.8.0" />
+    </ItemGroup>
+
+</Project>
