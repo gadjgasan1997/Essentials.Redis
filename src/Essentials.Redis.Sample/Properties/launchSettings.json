@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Debug": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "environmentVariables": {
+        "ASPNETCORE_URLS": "http://*:9952",
+        "APPLICATION_NAME": "Essentials.Redis.Sample",
+        "APPLICATION_INSTANCE": "localhost",
+        "ASPNETCORE_ENVIRONMENT": "Debug"
+      }
+    }
+  }
+}

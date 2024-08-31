@@ -10,4 +10,8 @@
       <PackageReference Include="Essentials.Configuration" Version="1.2.3" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Essentials.Redis.Core\Essentials.Redis.Core.csproj" />
+    </ItemGroup>
+
 </Project>
